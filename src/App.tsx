@@ -111,7 +111,7 @@ export default function App() {
       />
       </div>
 
-      <section className="bg-[url('media/rioDaAmazonia.jpeg')] bg-fixed bg-center flex flex-col">
+      <section className="bg-[url('Media/rioDaAmazonia.jpeg')] bg-fixed bg-center flex flex-col">
 
         {/* Seção Principal */}
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8 h-auto w-full bg-green-700/60 p-5">
@@ -129,7 +129,7 @@ export default function App() {
           </div>
           <div className="flex justify-center items-center">
             <img 
-              src="media/9.png"
+              src="Media/9.png"
               alt="Belezas de Salinas"
               className="w-full max-w-md md:max-w-lg rounded-lg"
             />
@@ -143,7 +143,7 @@ export default function App() {
           </h1>
           <div className="flex justify-center">
             <img 
-              src="media/patrocinadores.png"
+              src="Media/patrocinadores.png"
               alt="Patrocinadores"
               className="max-w-xs sm:max-w-md md:max-w-lg"
             />
