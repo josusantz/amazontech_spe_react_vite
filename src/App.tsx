@@ -2,6 +2,11 @@ import { TiInfoLargeOutline } from "react-icons/ti";
 import { TiContacts } from "react-icons/ti";
 import { TiTicket } from "react-icons/ti";
 import { TiGroup } from "react-icons/ti";
+import { CiLinkedin } from "react-icons/ci";
+import { FaInstagram } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
+
+
 
 
 export default function App() {
@@ -111,7 +116,7 @@ export default function App() {
       />
       </div>
 
-      <section className="bg-[url('Media/rioDaAmazonia.jpeg')] bg-fixed bg-center flex flex-col">
+      <section className="bg-[url('/Media/rioDaAmazonia.jpeg')] bg-fixed bg-center flex flex-col">
 
         {/* Seção Principal */}
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8 h-auto w-full bg-green-700/60 p-5">
@@ -155,30 +160,44 @@ export default function App() {
       <footer className="bg-gray-900 text-white py-6">
         <div className="container mx-auto px-6 flex flex-row justify-between gap-6">
 
-          {/* Sobre Nós */}
-          <div className="w-full md:w-1/3">
-            <h3 className="text-lg font-semibold border-b-2 border-yellow-400 pb-2">Sobre Nós</h3>
-            <p className="mt-2 text-gray-400">Seu site incrível com informações relevantes.</p>
+          {/* Localização */}
+          <div className="w-full md:w-1/4">
+            <h3 className="text-lg font-semibold border-b-2 text-center border-yellow-400 pb-2">Localização</h3>
+            <p className="mt-2 text-gray-400 text-center" >Casa de Cultura Fonte do Caranã  <br />R. Carana, Salinópolis - PA, 68721-000</p>
           </div>
 
-          {/* Links Úteis */}
-          <div className="w-full md:w-1/3">
-            <h3 className="text-lg font-semibold border-b-2 border-yellow-400 pb-2">Links Úteis</h3>
-            <ul className="mt-2 space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-yellow-400">Início</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-yellow-400">Serviços</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-yellow-400">Contato</a></li>
-            </ul>
-          </div>
+          
 
           {/* Redes Sociais */}
-          <div className="w-full md:w-1/3">
-            <h3 className="text-lg font-semibold border-b-2 border-yellow-400 pb-2">Redes Sociais</h3>
-            <div className="mt-2 space-x-4">
-              <a href="#" className="text-gray-400 hover:text-yellow-400">Facebook</a>
-              <a href="#" className="text-gray-400 hover:text-yellow-400">Instagram</a>
-              <a href="#" className="text-gray-400 hover:text-yellow-400">Twitter</a>
+          <div className="w-full md:w-1/4 flex-col flex">
+            <h3 className="text-lg font-semibold border-b-2 text-center border-yellow-400 pb-2">Redes Sociais</h3>
+            <div className="mt-2 w-full space-x-4 flex flex-row justify-center items-center" >
+
+              <a href="#" className="text-gray-400 items-center flex gap-2 hover:text-yellow-400">
+                <span><CiLinkedin  size={20}/></span>
+                <span> Linkedin</span></a>
+
+              <a href="#" className="text-gray-400 items-center gap-2 flex hover:text-yellow-400">
+                <span><FaInstagram size={20}/></span>
+                <span>Instagram</span></a>
             </div>
+          </div>
+          {/* Contatos*/}
+          <div className="w-full md:w-1/4">
+            <h3 className="text-lg font-semibold border-b-2  text-center flex-row border-yellow-400 pb-2">Contate-nos!</h3>
+            <ul className="mt-2 space-y-2 flex justify-center gap-4">
+              <li><a href="#" className="text-gray-400 flex hover:text-yellow-400 ">Andressa Valente</a></li>
+              <li><a href="#" className="text-gray-400 flex gap-2 hover:text-yellow-400">
+                <span><FaWhatsapp size={20}/></span>
+                <span >(91) 99109-7678</span></a></li>
+            </ul>
+          </div>
+          <div className = "w-full flex justify-between items-center md:w-1/4">
+            <img
+              src="Icons/ufpa_macae.png"
+              alt="Iconesessãomacae_sessaoufpa_SPE"
+              className="w-40 h-40"
+            />
           </div>
 
         </div>
