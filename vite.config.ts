@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss()],
-    base:"/amazontech_spe_react_vite",
+    base:"/amazontech_spe_react_vite/",
   server: {
     allowedHosts: true,
   }

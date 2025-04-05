@@ -5,7 +5,8 @@ import { TiGroup } from "react-icons/ti";
 import { CiLinkedin } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
-
+import About from './About';
+import { Link } from 'react-router-dom';
 
 
 
@@ -25,12 +26,12 @@ export default function App() {
           <nav >
             <ul className="flex space-x-4 pr-4">
               <li>
-                <a href="#" className="text-white hover:text-gray-300">
-                  <span className="hidden sm:inline">Sobre o Evento</span>
-                  <span className = "sm:hidden">
-                  <TiInfoLargeOutline size={24}/> 
-                  </span>
-                </a>
+                  <Link to="/About" className="text-white hover:text-gray-300">
+                    <span className="hidden sm:inline">Sobre o Evento</span>
+                    <span className = "sm:hidden">
+                      <TiInfoLargeOutline size={24}/> 
+                    </span>
+                  </Link>
               </li>
               <li>
                 <a href="#" className="text-white hover:text-gray-300">
