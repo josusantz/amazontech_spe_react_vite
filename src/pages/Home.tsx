@@ -9,7 +9,7 @@ export default function Home() {
             />
             </div>
 
-            <section className="bg-[url('Media/rioDaAmazonia.jpeg')] bg-fixed bg-center flex flex-col">
+            <section className="bg-[url('/Media/rioDaAmazonia.jpeg')] bg-fixed bg-center flex flex-col">
 
               {/* Seção Principal */}
               <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8 h-auto w-full bg-green-700/60 p-5">

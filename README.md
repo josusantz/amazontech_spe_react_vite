@@ -1,3 +1,3 @@
 # Amazontech_SPE
 
-## @copy Josué Dias
+## @Josué Dias & Thiago Yeshua
