@@ -42,7 +42,7 @@ export default function Header(){
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white hover:text-gray-300">
+                <a href="mailto:ufpaspe@gmail.com" className="text-white hover:text-gray-300">
                   <span className="hidden sm:inline">Contato</span>
                   <span className="sm:hidden">
                     <TiContacts size={24}/>
