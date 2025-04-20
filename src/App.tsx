@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import About from './pages/About';
 import Home from './pages/Home';
-import Footer from './components/Footer';
+import Footer from './components/tamaguchiFooter';
 import Header from './components/Header';
 
 export default function App() {

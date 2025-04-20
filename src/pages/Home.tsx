@@ -1,18 +1,19 @@
 export default function Home() {
     return (
         <main className="full-h max-w-screen bg-gray-900 flex-row justify-center">
-            <div className="h-64 w-full flex justify-center items-center">
+            <div className="h-36 w-full flex justify-center items-center ">
                 <img 
                     src="Icons/amazontech.PNG"
                     alt="Amazon Tech Energy Logo"
-                    className="max-w-xs sm:max-w-md md:max-w-lg"
+                    className="max-w-sm mb-20"
             />
             </div>
 
             <section className="bg-[url('/Media/rioDaAmazonia.jpeg')] bg-fixed bg-center flex flex-col">
 
-              {/* Seção Principal */}
+              {/* Seção Principal sm:max-w-md md:max-w-lg*/}
               <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8 h-auto w-full bg-green-700/60 p-5">
+                
                 <div className="text-left text-gray-300">
                   <h1 className="text-white text-3xl md:text-4xl text-center font-bold mb-4">
                     Nos dias 03 a 05 de Junho de 2025, em Salinópolis - PA, Brasil
@@ -25,9 +26,9 @@ export default function Home() {
                     imenso potencial da margem equatorial.
                   </p>
                 </div>
-                <div className="flex justify-center items-center">
+                <div className="flex justify-center items-center mt-15">
                   <img 
-                    src="Media/9.png"
+                    src="Media/fontedocaranaeditada.png"
                     alt="Belezas de Salinas"
                     className="w-full max-w-md md:max-w-lg rounded-lg"
                   />
@@ -41,7 +42,7 @@ export default function Home() {
                 </h1>
                 <div className="flex justify-center">
                   <img 
-                    src="Media/patrocinadores.png"
+                    src="Media/patrocinadoresReduzido.png"
                     alt="Patrocinadores"
                     className="max-w-xs sm:max-w-md md:max-w-lg"
                   />
