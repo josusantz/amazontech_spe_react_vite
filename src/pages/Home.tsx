@@ -39,7 +39,7 @@ export default function Home() {
           {/* Seção de Patrocinadores */}
           <div className="flex flex-col justify-center items-center h-auto w-full bg-green-700/60 py-10">
             <h1 className="text-white text-3xl md:text-4xl text-center font-bold mb-6">
-              PATROCINADORES
+              APOIADORES
             </h1>
             <div className="flex justify-center">
               <img 
