@@ -14,7 +14,7 @@ export default function Palestrantes() {
                     </p>
                 </div>
 
-                {/* Destaques */}
+                {/* Destaques ---- */}
                 <div className="flex justify-center mt-10">
                     <img 
                         src="Icons/speufpa.PNG"
