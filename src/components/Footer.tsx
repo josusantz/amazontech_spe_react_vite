@@ -1,58 +1,110 @@
 import { CiLinkedin } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 
-export default function Footer(){
-    return(
-        <footer className="bg-gray-900 text-white py-6">
-        <div className="container mx-auto px-6 flex flex-row justify-between gap-6">
-  
-          {/* Localização */}
-          <div className="w-full md:w-1/4">
-            <h3 className="text-lg font-semibold border-b-2 text-center border-yellow-400 pb-2">Localização</h3>
-            <p className="mt-2 text-gray-400 text-center" >Casa de Cultura Fonte do Caranã  <br />R. Carana, Salinópolis - PA, 68721-000</p>
-          </div>
-  
-          
-  
-          {/* Redes Sociais */}
-          <div className="w-full md:w-1/4 flex-col flex">
-            <h3 className="text-lg font-semibold border-b-2 text-center border-yellow-400 pb-2">Redes Sociais</h3>
-            <div className="mt-2 w-full space-x-4 flex flex-row justify-center items-center" >
-  
-              <a href="#" className="text-gray-400 items-center flex gap-2 hover:text-yellow-400">
-                <span><CiLinkedin  size={20}/></span>
-                <span> Linkedin</span></a>
-  
-              <a href="#" className="text-gray-400 items-center gap-2 flex hover:text-yellow-400">
-                <span><FaInstagram size={20}/></span>
-                <span>Instagram</span></a>
-            </div>
-          </div>
-          {/* Contatos*/}
-          <div className="w-full md:w-1/4">
-            <h3 className="text-lg font-semibold border-b-2  text-center flex-row border-yellow-400 pb-2">Contate-nos!</h3>
-            <ul className="mt-2 space-y-2 flex justify-center gap-4">
-              <li><a href="#" className="text-gray-400 flex hover:text-yellow-400 ">Andressa Valente</a></li>
-              <li><a href="#" className="text-gray-400 flex gap-2 hover:text-yellow-400">
-                <span><FaWhatsapp size={20}/></span>
-                <span >(91) 99109-7678</span></a></li>
-            </ul>
-          </div>
-          <div className = "w-full flex justify-between items-center md:w-1/4">
-            <img
-              src="Icons/ufpa_macae.png"
-              alt="Iconesessãomacae_sessaoufpa_SPE"
-              className="w-40 h-40"
-            />
-          </div>
-  
+export default function Footer() {
+  return (
+    <footer className="bg-gray-900 text-white py-6">
+      <div className="container mx-auto px-6 flex flex-col md:flex-row md:items-center md:justify-center md:gap-6">
+        {/* Localização */}
+        <div className="w-full md:w-1/4 text-center md:flex md:flex-col md:items-center">
+          <div className="border-t-4 border-yellow-400 w-full mb-2 md:mb-0 md:border-none"></div>
+          <h3 className="text-lg font-semibold pb-2">
+            Localização
+          </h3>
+          <p className="mt-2 text-gray-400">
+            Casa de Cultura Fonte do Caranã <br /> R. Carana, Salinópolis - PA,
+            68721-000
+          </p>
         </div>
-  
-        {/* Direitos Autorais */}
-        <div className="mt-6 text-center text-gray-500 text-sm">
-          &copy; 2025 Josue Dias. Todos os direitos reservados.
+
+        {/* Linha vertical entre Localização e Redes Sociais */}
+        <div className="hidden md:block border-r-2 border-yellow-400 h-24"></div>
+
+        {/* Redes Sociais */}
+        <div className="w-full md:w-1/4 text-center md:flex md:flex-col md:items-center">
+          <div className="border-t-4 border-yellow-400 w-full mb-2 md:mb-0 md:border-none"></div>
+          <h3 className="text-lg font-semibold pb-2">
+            Redes Sociais
+          </h3>
+          <div className="mt-2 flex justify-center items-center gap-4">
+            <a
+              href="https://www.linkedin.com/company/spe-ufpa-student-chapter/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 flex items-center gap-2 hover:text-yellow-400"
+            >
+              <CiLinkedin size={20} />
+              <span>Linkedin</span>
+            </a>
+            <a
+              href="https://www.instagram.com/spe.ufpa?igsh=N3p3NTc3OWRiY3Fw"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 flex items-center gap-2 hover:text-yellow-400"
+            >
+              <FaInstagram size={20} />
+              <span>Instagram</span>
+            </a>
+          </div>
         </div>
-      </footer>
-    )
+
+        {/* Linha vertical entre Redes Sociais e Contate-nos */}
+        <div className="hidden md:block border-r-2 border-yellow-400 h-24"></div>
+
+        {/* Contatos */}
+        <div className="w-full md:w-1/4 text-center md:flex md:flex-col md:items-center">
+          <div className="border-t-4 border-yellow-400 w-full mb-2 md:mb-0 md:border-none"></div>
+          <h3 className="text-lg font-semibold pb-2">
+            Contate-nos
+          </h3>
+          <ul className="mt-2 flex justify-center items-center gap-4">
+            <li>
+              <a
+                href="#"
+                className="text-gray-400 hover:text-yellow-400"
+              >
+                Andressa Valente
+              </a>
+            </li>
+            <li>
+              <a
+                href="mailto:ufpaspe@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 flex items-center gap-2 hover:text-yellow-400"
+              >
+                <FaEnvelope size={20} />
+                <span>ufpaspe@gmail.com</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        {/* Linha vertical entre Contate-nos e Inscrição */}
+        <div className="hidden md:block border-r-2 border-yellow-400 h-24"></div>
+
+        {/* Inscrição do Evento */}
+        <div className="w-full md:w-1/4 text-center md:flex md:flex-col md:items-center">
+          <div className="border-t-4 border-yellow-400 w-full mb-2 md:mb-0 md:border-none"></div>
+          <h3 className="text-lg font-semibold pb-2">
+            Inscrição do Evento
+          </h3>
+          <a
+            href="https://www.sympla.com.br/evento/1-amazon-techenergy-conexoes-para-o-futuro/2914779"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-2 px-4 py-2 bg-yellow-400 text-gray-900 font-semibold rounded hover:bg-yellow-500 md:w-auto md:text-center w-full text-center"
+          >
+            Inscreva-se
+          </a>
+        </div>
+      </div>
+
+      {/* Direitos Autorais */}
+      <div className="mt-6 text-center text-gray-500 text-sm">
+        &copy; 2025 Josue Dias, DevGodYeshua. Todos os direitos reservados.
+      </div>
+    </footer>
+  );
 }
