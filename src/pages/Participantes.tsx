@@ -41,7 +41,7 @@ export default function Palestrantes() {
                             <img 
                                 src="Members/ana_ligia.jpg" 
                                 alt="Ana Lígia"
-                                className="w-44 h-44 object-cover mb-4 rounded-full border-3 border-yellow-400"
+                                className="w-44 h-44 object-cover mb-2 rounded-[20vw] border-[0.9px] border-green-300"
                             />
                             <h3 className="text-white text-2xl font-bold mb-2">Ana Lígia Trannin</h3>
                             <h4 className="text-green-300 text-lg font-semibold mb-3">Gerente de Recrutamento na SLB</h4>
@@ -63,7 +63,7 @@ export default function Palestrantes() {
                             <img 
                                 src="Members/claudia_vasconcellos.jpg" 
                                 alt="Claudia Vasconcellos"
-                                className="w-44 h-44 object-cover mb-4 rounded-lg border-3 border-yellow-400"
+                                className="w-44 h-44 object-cover mb-2 rounded-full border-[0.9px] border-green-300"
                             />
                             <h3 className="text-white text-2xl font-bold mb-2">Claudia Vasconcellos</h3>
                             <h4 className="text-green-300 text-lg font-semibold mb-3">Consultora Técnica na Petrobrás</h4>
@@ -86,8 +86,7 @@ export default function Palestrantes() {
                             <img 
                                 src="Members/wilson_leal.jpg" 
                                 alt="Wilson Leal"
-                                className="w-44 h-44 object-cover mb-4 rounded-lg border-3 border-yellow-400"
-                            />
+                                className="w-44 h-44 object-cover mb-2 rounded-full border-[0.9px] border-green-300"                            />
                             <h3 className="text-white text-2xl font-bold mb-2">Wilson Leal</h3>
                             <h4 className="text-green-300 text-lg font-semibold mb-3">Desenvolvedor de Negócios</h4>
                             <p className="text-gray-300 text-base text-justify leading-relaxed">
@@ -108,7 +107,7 @@ export default function Palestrantes() {
                             <img 
                                 src="Media/julia_monteiro.png" 
                                 alt="Rafaela Vieira"
-                                className="w-44 h-44 object-cover mb-4 rounded-lg border-3 border-yellow-400"
+                                className="w-44 h-44 object-cover mb-2 rounded-full border-[0.9px] border-green-300"
                             />
                             <h3 className="text-white text-2xl font-bold mb-2">Rafaela Vieira</h3>
                             <h4 className="text-green-300 text-lg font-semibold mb-3">Coordenadora Comercial na Subsea7</h4>
@@ -133,7 +132,7 @@ export default function Palestrantes() {
                             <img 
                                 src="Members/joao_guandalini.jpg" 
                                 alt="João Guandalini"
-                                className="w-44 h-44 object-cover mb-4 rounded-lg border-3 border-yellow-400"
+                                className="w-44 h-44 object-cover mb-2 rounded-full border-[0.9px] border-green-300"
                             />
                             <h3 className="text-white text-2xl font-bold mb-2">João Guandalini</h3>
                             <h4 className="text-green-300 text-lg font-semibold mb-3">Engenheiro de Petróleo</h4>
@@ -155,7 +154,7 @@ export default function Palestrantes() {
                             <img 
                                 src="Members/josewalmir.jpeg" 
                                 alt="Jose"
-                                className="w-44 h-44 object-cover mb-4 rounded-lg border-3 border-yellow-400"
+                                className="w-44 h-44 object-cover mb-2 rounded-full border-[0.9px] border-green-300"
                             />
                             <h3 className="text-white text-2xl font-bold mb-2">José Walmir M. Dias</h3>
                             <h4 className="text-green-300 text-lg font-semibold mb-3">JN Consultoria</h4>
@@ -177,8 +176,8 @@ export default function Palestrantes() {
                             <img 
                                 src="Members/lucasSatiro.jpg" 
                                 alt="Lucas Sátiro"
-                                className="w-44 h-44 object-cover mb-4 rounded-lg border-3 border-yellow-400"
-                            />
+                                className="w-44 h-44 object-cover mb-2 rounded-full border-[0.9px] border-green-300"
+                                />
                             <h3 className="text-white text-2xl font-bold mb-2">Lucas Sátiro</h3>
                             <h4 className="text-green-300 text-lg font-semibold mb-3">Engenheiro de Petróleo</h4>
                             <p className="text-gray-300 text-base text-justify leading-relaxed">
@@ -201,7 +200,7 @@ export default function Palestrantes() {
                             <img 
                                 src="Members/denis.jpg" 
                                 alt="Denis"
-                                className="w-44 h-44 object-cover mb-4 rounded-lg border-3 border-yellow-400"
+                                className="w-44 h-44 object-cover mb-2 rounded-full border-[0.9px] border-green-300"
                             />
                             <h3 className="text-white text-2xl font-bold mb-2">Denis Rosa Angra</h3>
                             <h4 className="text-green-300 text- font-semibold mb-3 text-justify">Gerente de Negócios Digitais e Tecnologia na Ocyan</h4>
@@ -222,7 +221,7 @@ export default function Palestrantes() {
                             <img 
                                 src="Media/" 
                                 alt="Laura"
-                                className="w-44 h-44 object-cover mb-4 rounded-lg border-3 border-yellow-400"
+                                className="w-44 h-44 object-cover mb-2 rounded-full border-[0.9px] border-green-300"
                             />
                             <h3 className="text-white text-2xl font-bold mb-2">Laura Musgueira</h3>
                             <h4 className="text-green-300 text-lg font-semibold mb-3">Química de Petróleo na Petrobrá<select name="" id=""></select></h4>

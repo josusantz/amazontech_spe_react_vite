@@ -1,10 +1,10 @@
 export default function About() {
     return (
       <main className="w-full overflow-x-hidden">
-        <section className="bg-[url('/Media/rioDaAmazonia.jpeg')] bg-fixed  w-full bg-center flex flex-col">
+        <section className="bg-[url('/Media/rioDaAmazonia.jpeg')] w-full bg-cover bg-center flex flex-col">
   
           {/* Seção Principal */}
-          <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8 w-full bg-green-700/60 p-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8  bg-green-700/60 p-5 2xl:p-30">
             
             {/* Texto - SOBRE O EVENTO */}
             <div className="text-gray-300 bg-green-950/70 text-justify rounded-2xl p-4 flex flex-col justify-center mt-10 mb-10">
