@@ -41,7 +41,7 @@ export default function Palestrantes() {
                             <img 
                                 src="Members/ana_ligia.jpg" 
                                 alt="Ana Lígia"
-                                className="w-44 h-44 object-cover mb-4 rounded-lg border-3 border-yellow-400"
+                                className="w-44 h-44 object-cover mb-4 rounded-full border-3 border-yellow-400"
                             />
                             <h3 className="text-white text-2xl font-bold mb-2">Ana Lígia Trannin</h3>
                             <h4 className="text-green-300 text-lg font-semibold mb-3">Gerente de Recrutamento na SLB</h4>
@@ -61,7 +61,7 @@ export default function Palestrantes() {
                             className="bg-green-950/90 rounded-lg shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform"
                         >
                             <img 
-                                src="Media/Claudia.jpg" 
+                                src="Members/claudia_vasconcellos.jpg" 
                                 alt="Claudia Vasconcellos"
                                 className="w-44 h-44 object-cover mb-4 rounded-lg border-3 border-yellow-400"
                             />
@@ -84,7 +84,7 @@ export default function Palestrantes() {
                             className="bg-green-950/90 rounded-lg shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform"
                         >
                             <img 
-                                src="Media/julia_monteiro.png" 
+                                src="Members/wilson_leal.jpg" 
                                 alt="Wilson Leal"
                                 className="w-44 h-44 object-cover mb-4 rounded-lg border-3 border-yellow-400"
                             />
@@ -131,7 +131,7 @@ export default function Palestrantes() {
                             className="bg-green-950/90 rounded-lg shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform"
                         >
                             <img 
-                                src="Media/joao.png" 
+                                src="Members/joao_guandalini.jpg" 
                                 alt="João Guandalini"
                                 className="w-44 h-44 object-cover mb-4 rounded-lg border-3 border-yellow-400"
                             />
@@ -153,7 +153,7 @@ export default function Palestrantes() {
                             className="bg-green-950/90 rounded-lg shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform"
                         >
                             <img 
-                                src="Media/Jose .jpg" 
+                                src="Members/josewalmir.jpeg" 
                                 alt="Jose"
                                 className="w-44 h-44 object-cover mb-4 rounded-lg border-3 border-yellow-400"
                             />
@@ -175,7 +175,7 @@ export default function Palestrantes() {
                             className="bg-green-950/90 rounded-lg shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform"
                         >
                             <img 
-                                src="Media/Lucas Sátiro.jpg" 
+                                src="Members/lucasSatiro.jpg" 
                                 alt="Lucas Sátiro"
                                 className="w-44 h-44 object-cover mb-4 rounded-lg border-3 border-yellow-400"
                             />
@@ -199,7 +199,7 @@ export default function Palestrantes() {
                             className="bg-green-950/90 rounded-lg shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform"
                         >
                             <img 
-                                src="Media/Denis.jpg" 
+                                src="Members/denis.jpg" 
                                 alt="Denis"
                                 className="w-44 h-44 object-cover mb-4 rounded-lg border-3 border-yellow-400"
                             />
