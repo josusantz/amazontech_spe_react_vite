@@ -39,7 +39,7 @@ export default function Palestrantes() {
                             className="bg-green-950/90 rounded-lg shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform"
                         >
                             <img 
-                                src="Media/Ana.png" 
+                                src="Media/ana_ligia.jpg" 
                                 alt="Ana Lígia"
                                 className="w-44 h-44 object-cover mb-4 rounded-lg border-3 border-yellow-400"
                             />
