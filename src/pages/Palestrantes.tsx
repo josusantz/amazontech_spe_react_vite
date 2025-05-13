@@ -236,7 +236,7 @@ export default function Palestrantes() {
                             </p>
                         </a>
 
-                        {/* Dalexa */}
+                        {/* Dalexa n */}
                         <a 
                             href="https://www.linkedin.com/in/dalexa-fernandez-20b672121?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
                             target="_blank" 
