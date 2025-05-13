@@ -81,20 +81,19 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Linha vertical entre Contate-nos e Inscrição */}
-        <div className="hidden md:block border-r-2 border-yellow-400 h-24"></div>
+        {/* Linha vertical */}
+        <div className="hidden md:block border-r-2 border-yellow-400 h-24 mx-4 flex-shrink-0"></div>
 
         {/* Inscrição do Evento */}
         <div className="w-full md:w-1/4 text-center md:flex md:flex-col md:items-center">
           <div className="border-t-4 border-yellow-400 w-full mb-2 md:mb-0 md:border-none"></div>
-          <h3 className="text-lg font-semibold pb-2">
-            Inscrição do Evento
-          </h3>
+          <h3 className="text-lg font-semibold pb-2">Inscrição do Evento</h3>
           <a
-            href="https://www.sympla.com.br/evento/1-amazon-techenergy-conexoes-para-o-futuro/2914779"
+            href="https://www.sympla.com.br/preview/3dc437b7b109dc8a56ae431d13be9ede"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-2 px-4 py-2 bg-yellow-400 text-gray-900 font-semibold rounded hover:bg-yellow-500 md:w-auto md:text-center w-full text-center"
+            className="mt-2 px-4 py-2 bg-yellow-400 text-gray-900 font-semibold rounded hover:bg-yellow-500 md:w-auto w-full text-center"
+            aria-label="Link para inscrição do evento via Sympla"
           >
             Inscreva-se
           </a>

@@ -6,7 +6,7 @@ import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter basename="/amazontech_spe_react_vite">
+    <BrowserRouter basename="/amazontech_spe_react_vite/">
     <App />
     </BrowserRouter>
   </React.StrictMode>,
