@@ -105,7 +105,7 @@ export default function Palestrantes() {
                             className="bg-green-950/90 rounded-lg shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform"
                         >
                             <img 
-                                src="Media/julia_monteiro.png" 
+                                src="Members/Rafaela.jpg" 
                                 alt="Rafaela Vieira"
                                 className="w-44 h-44 object-cover mb-2 rounded-full border-[0.9px] border-green-300"
                             />
@@ -219,18 +219,41 @@ export default function Palestrantes() {
                             className="bg-green-950/90 rounded-lg shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform"
                         >
                             <img 
-                                src="Media/" 
+                                src="Members/Laura.jpg" 
                                 alt="Laura"
                                 className="w-44 h-44 object-cover mb-2 rounded-full border-[0.9px] border-green-300"
                             />
                             <h3 className="text-white text-2xl font-bold mb-2">Laura Musgueira</h3>
-                            <h4 className="text-green-300 text-lg font-semibold mb-3">Química de Petróleo na Petrobrá<select name="" id=""></select></h4>
+                            <h4 className="text-green-300 text-lg font-semibold mb-3">Química de Petróleo na Petrobras<select name="" id=""></select></h4>
                             <p className="text-gray-300 text-base text-justify leading-relaxed">
                             Laura Musgueira é Química com Atribuições tecnológicas formada pela UFRJ. Ingressou na PETROBRÁS
                             em 2008 como Química de Petróleo e possui MBA em Gestão de Pessoas pela FGV. Possui 17 de experiência na
                             indústria de petróleo, onde atuou como engenheira de fluidos offshore e responsável técnica operacional. 
                             Atualmente trabalha com contratação, desenvolvimento de tecnologia e projetos de fluidos, além de integrar a Diretoria
                             SPE de Macaé Section. 
+
+                            </p>
+                        </a>
+
+                        {/* Dalexa */}
+                        <a 
+                            href="https://www.linkedin.com/in/dalexa-fernandez-20b672121?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app https://www.linkedin.com/in/josewalmirm?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="bg-green-950/90 rounded-lg shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform"
+                        >
+                            <img 
+                                src="Members/Dalexa.jpg" 
+                                alt="Dalexa"
+                                className="w-44 h-44 object-cover mb-2 rounded-full border-[0.9px] border-green-300"
+                            />
+                            <h3 className="text-white text-2xl font-bold mb-2">Laura Musgueira</h3>
+                            <h4 className="text-green-300 text-lg font-semibold mb-3">Gerente Regional na SPE Internacional<select name="" id=""></select></h4>
+                            <p className="text-gray-300 text-base text-justify leading-relaxed">
+                            Dalexa é engenheira de petróleo com mestrado e formação em Negócios Internacionais, somando mais de 17 anos de experiência em empresas 
+                            globais de óleo e gás. Especialista em ciclo de vida de poços e gestão de projetos, alia conhecimento técnico e de negócios na liderança 
+                            de equipes com foco em resultados. Atualmente, é gerente regional para América Latina e Caribe na SPE, coach de liderança certificada e 
+                            promove o desenvolvimento de líderes por meio de programas de coaching e oficinas em seu centro de crescimento pessoal em Houston.
 
                             </p>
                         </a>

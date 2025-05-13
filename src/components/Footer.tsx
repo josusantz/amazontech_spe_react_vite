@@ -8,7 +8,7 @@ export default function Footer() {
         
         {/* Localização */}
         <div className="w-full md:w-1/4 text-center md:flex md:flex-col md:items-center">
-          <div className="border-t-4 border-yellow-400 w-full mb-2 md:mb-0 md:border-none"></div>
+          <div className="border-t-4 border--400 w-full mb-2 md:mb-0 md:border-none"></div>
           <h3 className="text-lg font-semibold pb-2">Localização</h3>
           <address className="mt-2 not-italic text-gray-400">
             Casa de Cultura Fonte do Caranã <br /> R. Carana, Salinópolis - PA, 68721-000
