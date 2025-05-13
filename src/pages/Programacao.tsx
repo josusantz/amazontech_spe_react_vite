@@ -1,90 +1,76 @@
-import React from "react";
-const EventSchedule: React.FC = () => {
-  const schedule = [
-    {
-      day: "03",
-      weekday: "SEG",
-      title: "DIA 01",
-      events: [
-        "Credenciamento – 08:30 - 09:00",
-        "Mesa de Abertura – 09:00 - 10:00",
-        "1ª Palestra: Rafaela Vieira (Subsea7) – 10:00 - 11:00",
-        "2ª Palestra: José Walmir (JN Consultoria) – 11:00 - 12:00",
-        "Intervalo – 12:00 - 14:00",
-        "3ª Palestra: Jonatan Conceição (RelyOn) – 14:00 - 15:00",
-        "4ª Palestra: Wilson Leal (ALTAVE) – 15:00 - 16:00",
-        "Mesa Redonda 2 – 16:00 - 17:00",
-        "Coffee Break – 17:00 - 18:00",
-      ],
-    },
-    {
-      day: "04",
-      weekday: "TER",
-      title: "DIA 02",
-      events: [
-        "Credenciamento – 08:30 - 09:00",
-        "5ª Palestra: Cláudia Vasconcelos (Petrobras) – 09:00 - 10:00",
-        "6ª Palestra: João Guandalini (Foresea) – 10:00 - 11:00",
-        "7ª Palestra: Denis Angra (Ocyan / SPE) – 11:00 - 12:00",
-        "Intervalo – 12:00 - 14:00",
-        "8ª Palestra: Rafaela Vieira (Subsea7) – 14:00 - 15:00",
-        "9ª Palestra: Luvas Sátiro (Geowellex) – 15:00 - 16:00",
-        "10ª Palestra: Dalexa Fernandez (Infinity Power Center / SPE) – 16:00 - 17:00",
-        "Coffee Break – 17:00 - 18:00",
-      ],
-    },
-    {
-      day: "05",
-      weekday: "QUA",
-      title: "DIA 03",
-      events: [
-        "Credenciamento – 08:30 - 09:00",
-        "11ª Palestra: Ana Lígia (SLB) – 09:00 - 10:00",
-        "Minicurso: Fluidos de Perfuração – Laura Musgueira (Petrobras) – 10:00 - 12:00",
-        "Intervalo – 12:00 - 14:00",
-        "12ª Palestra: Fernanda Gois (SLB) – 14:00 - 15:00",
-        "Mesa Redonda 3 – 15:00 - 16:00",
-        "Coquetel – 16:00 - 17:00",
-      ],
-    },
-  ];
 
-  return (
-    <div className="min-h-screen flex flex-col md:flex-row font-sans">
-      <div className="bg-orange-500 text-white w-full md:w-1/3 p-6 flex flex-col justify-between">
-        <div>
-          <h1 className="text-5xl font-bold mb-10">EVENTS SCHEDULE</h1>
-          <p className="text-sm">Universidade Federal do Pará <br/> Campus Salinópolis</p>
-          <p className="text-xs">SPE Student Chapter</p>
-        </div>
-        <div>
-          <p className="text-sm mt-10">Para mais informações:</p>
-          <p className="text-2xl font-bold">000 2341 3426</p>
-          <p className="mt-2 text-">Acesse: www.ticket.com</p>
-        </div>
-      </div>
+export default function Programacao() {
+    return (
+        <main className="bg-[url('Media/rioDaAmazonia.jpeg')] bg-cover bg-center bg-fixed w-full overflow-x-hidden">
+            <div className="w-full h-30 bg-gray-900"></div>
+            <section className="w-full flex flex-col items-center py-14 bg-green-950/80 backdrop-blur-md">
+                
+                {/* Seção de Introdução */}
+                <div className="-mt-10 text-center bg-gradient-to-r from-green-700 to-green-900 py-16 rounded-2xl mx-6 shadow-2xl w-full max-w-3xl animate-fade-in">
+                    <h1 className="text-white text-5xl font-extrabold tracking-wide uppercase">Programação do Evento</h1>
+                    <p className="text-gray-200 text-lg md:text-xl max-w-2xl mx-auto mt-4 font-light">
+                        Explore os eventos e palestras do <strong>I° Amazon TechEnergy</strong>. Planeje seu dia e aproveite ao máximo essa experiência transformadora!
+                    </p>
+                </div>
 
-      <div className="bg-slate-900 text-white w-full md:w-3/4 p-6">
-        <h2 className="text-xl font-semibold mb-4 text-orange-400">JUNHO 2025</h2>
-        {schedule.map((day) => (
-          <div key={day.day} className="mb-6">
-            <div className="flex items-center space-x-4">
-              <div className="text-3xl font-bold text-orange-400">{day.day}</div>
-              <div>
-                <div className="uppercase text-sm font-medium text-gray-300">{day.weekday}</div>
-                <div className="font-semibold text-lg">{day.title}</div>
-              </div>
-            </div>
-            <ul className="mt-2 ml-12 list-disc text-gray-300 text-sm space-y-1">
-              {day.events.map((event, index) => (
-                <li key={index}>{event}</li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-};
+                {/* Seção de Programação */}
+                <div className="w-full max-w-screen-lg mt-12 px-6">
+                    <h2 className="text-white text-3xl font-bold text-center mb-10 tracking-wider">Agenda Oficial | 03 a 05 de Junho de 2025</h2>
 
-export default EventSchedule;
+                    {/* Lista refinada da programação */}
+                    <div className="space-y-12 w-full max-w-4xl">
+                        
+                        {/* Dia 1 - 03 de Junho */}
+                        <div className="ml-20 bg-green-950/90 rounded-xl shadow-lg p-8 border border-green-500 hover:scale-105 transition-all">
+                            <h3 className="text-white text-3xl font-bold mb-4 text-center uppercase">📅 Terça-feira - 03 de Junho</h3>
+                            <div className=" border-t border-green-500"></div>
+                            <ul className="text-gray-300 text-lg mt-6 space-y-4">
+                                <li><strong>08:30</strong> | Credenciamento e Boas-Vindas</li>
+                                <li><strong>09:00</strong> | 🔥 Mesa de Abertura</li>
+                                <li><strong>10:00</strong> | 🎤 Palestra - <span className="text-green-300">Rafaela Vieira (Subsea7)</span></li>
+                                <li><strong>11:00</strong> | 🎤 Palestra - <span className="text-green-300">José Walmir (JN Consultoria)</span></li>
+                                <li><strong>12:00</strong> | 🍽 Intervalo</li>
+                                <li><strong>14:00</strong> | 🎤 Palestra - <span className="text-green-300">Jonatan Conceição (RelyOn)</span></li>
+                                <li><strong>15:00</strong> | 🎤 Palestra - <span className="text-green-300">Wilson Leal (ALTAVE)</span></li>
+                                <li><strong>16:00</strong> | 🎤 Mesa Redonda 2</li>
+                                <li><strong>17:00</strong> | ☕ Coffee Break e Networking</li>
+                            </ul>
+                        </div>
+
+                        {/* Dia 2 - 04 de Junho */}
+                        <div className="ml-20 bg-green-950/90 rounded-xl shadow-lg p-8 border border-green-500 hover:scale-105 transition-all">
+                            <h3 className="text-white text-3xl font-bold mb-4 text-center uppercase">📅 Quarta-feira - 04 de Junho</h3>
+                            <div className="border-t border-green-500"></div>
+                            <ul className="text-gray-300 text-lg mt-6 space-y-4">
+                                <li><strong>08:30</strong> | Credenciamento</li>
+                                <li><strong>09:00</strong> | 🎤 Palestra - <span className="text-green-300">Cláudia Vasconcellos (Petrobras)</span></li>
+                                <li><strong>10:00</strong> | 🎤 Palestra - <span className="text-green-300">João Guandalini (Foresea)</span></li>
+                                <li><strong>11:00</strong> | 🎤 Palestra - <span className="text-green-300">Denis Angra (Ocyan)</span></li>
+                                <li><strong>12:00</strong> | 🍽 Intervalo</li>
+                                <li><strong>14:00</strong> | 🎤 Palestra - <span className="text-green-300">Rafaela Vieira (Subsea7)</span></li>
+                                <li><strong>15:00</strong> | 🎤 Palestra - <span className="text-green-300">Luvas Sátiro (Geowellex)</span></li>
+                                <li><strong>16:00</strong> | 🎤 Palestra - <span className="text-green-300">Dalexa Fernandez (Infinity Power Center)</span></li>
+                                <li><strong>17:00</strong> | ☕ Coffee Break e Encerramento do Dia</li>
+                            </ul>
+                        </div>
+
+                        {/* Dia 3 - 05 de Junho */}
+                        <div className="ml-20 bg-green-950/90 rounded-xl shadow-lg p-8 border border-green-500 hover:scale-105 transition-all">
+                            <h3 className="text-white text-3xl font-bold mb-4 text-center uppercase">📅 Quinta-feira - 05 de Junho</h3>
+                            <div className="border-t border-green-500"></div>
+                            <ul className="text-gray-300 text-lg mt-6 space-y-4">
+                                <li><strong>08:30</strong> | Credenciamento</li>
+                                <li><strong>09:00</strong> | 🎤 Palestra - <span className="text-green-300">Ana Lígia (SLB)</span></li>
+                                <li><strong>10:00</strong> | 🛠 Minicurso - <span className="text-green-300">Fluidos de Perfuração</span> (Laura Musgueira - Petrobras)</li>
+                                <li><strong>12:00</strong> | 🍽 Intervalo</li>
+                                <li><strong>14:00</strong> | 🎤 Palestra - <span className="text-green-300">Fernanda Gois (SLB)</span></li>
+                                <li><strong>15:00</strong> | 🎤 Mesa Redonda e Discussão Técnica</li>
+                                <li><strong>16:00</strong> | 🥂 Coquetel de Encerramento & Premiação</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    );
+}
