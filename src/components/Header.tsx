@@ -2,6 +2,7 @@ import { TiInfoLargeOutline } from "react-icons/ti";
 import { TiContacts } from "react-icons/ti";
 import { TiTicket } from "react-icons/ti";
 import { TiGroup } from "react-icons/ti";
+import { TiCalendarOutline } from "react-icons/ti"; // Ícone para programação
 import { Link } from 'react-router-dom';
 
 export default function Header() {
@@ -31,6 +32,14 @@ export default function Header() {
                                 <span className="hidden sm:inline font-bold text-lg">Palestrantes</span>
                                 <span className="sm:hidden">
                                     <TiGroup size={24} />
+                                </span>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/programacao" className="text-white hover:text-gray-300"> {/* Botão de programação */}
+                                <span className="hidden sm:inline font-bold text-lg">Programação</span>
+                                <span className="sm:hidden">
+                                    <TiCalendarOutline size={24} />
                                 </span>
                             </Link>
                         </li>
