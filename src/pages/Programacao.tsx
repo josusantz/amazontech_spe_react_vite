@@ -5,7 +5,7 @@ export default function Programacao() {
             <div className="w-full h-30 bg-gray-900"></div>
             <section className="w-full flex flex-col items-center py-14 bg-green-950/80 backdrop-blur-md">
                 
-                {/* Seção de Introdução */}
+                {/* Seção de Introdução aaaa*/}
                 <div className="-mt-10 text-center bg-gradient-to-r from-green-700 to-green-900 py-16 rounded-2xl mx-6 shadow-2xl w-full max-w-3xl animate-fade-in">
                     <h1 className="text-white text-5xl font-extrabold tracking-wide uppercase">Programação do Evento</h1>
                     <p className="text-gray-200 text-lg md:text-xl max-w-2xl mx-auto mt-4 font-light">
