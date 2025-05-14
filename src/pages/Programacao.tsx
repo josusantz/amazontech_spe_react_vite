@@ -25,15 +25,16 @@ export default function Programacao() {
                             <h3 className="text-white text-3xl font-bold mb-4 text-center uppercase">📅 Terça-feira - 03 de Junho</h3>
                             <div className=" border-t border-green-500"></div>
                             <ul className="text-gray-300 text-lg mt-6 space-y-4">
-                                <li><strong>08:30</strong> | Credenciamento e Boas-Vindas</li>
-                                <li><strong>09:00</strong> | 🔥 Mesa de Abertura</li>
-                                <li><strong>10:00</strong> | 🎤 Palestra - <span className="text-green-300">Rafaela Vieira (Subsea7)</span></li>
-                                <li><strong>11:00</strong> | 🎤 Palestra - <span className="text-green-300">José Walmir (JN Consultoria)</span></li>
-                                <li><strong>12:00</strong> | 🍽 Intervalo</li>
-                                <li><strong>14:00</strong> | 🎤 Palestra - <span className="text-green-300">Jonatan Conceição (RelyOn)</span></li>
-                                <li><strong>15:00</strong> | 🎤 Palestra - <span className="text-green-300">Wilson Leal (ALTAVE)</span></li>
-                                <li><strong>16:00</strong> | 🎤 Mesa Redonda 2</li>
-                                <li><strong>17:00</strong> | ☕ Coffee Break e Networking</li>
+                                <li><strong>08:00</strong> | Credenciamento e Boas-Vindas</li>
+                                <li><strong>09:00</strong> |  Mesa de Abertura</li>
+                                <li><strong>10:00</strong> |  Palestra 1 - <span className="text-green-300">Rafaela Vieira (Subsea7)</span></li>
+                                <li><strong>11:00</strong> |  Palestra 2 - <span className="text-green-300">José Walmir (JN Consultoria)</span></li>
+                                <li><strong>12:00</strong> |  Almoço </li>
+                                <li><strong>14:00</strong> |  Palestra 3 - <span className="text-green-300">Jonatan Conceição (RelyOn)</span></li>
+                                <li><strong>15:00</strong> |  Palestra 4 - <span className="text-green-300">Marcio Pimentel (Seadrill)</span></li>
+                                <li><strong>16:00</strong> |  Palestra 5 - <span className="text-green-300">Wilson Leal (ALTAVE)</span></li>
+                                <li><strong>17:00</strong> |  Mesa Redonda 2: <span className="text-green-300"> Rafaela, José, Walmir, Wilson e Jonatan</span></li>
+                                <li><strong>18:00</strong> |  Coffee Break</li>
                             </ul>
                         </div>
 
@@ -42,15 +43,15 @@ export default function Programacao() {
                             <h3 className="text-white text-3xl font-bold mb-4 text-center uppercase">📅 Quarta-feira - 04 de Junho</h3>
                             <div className="border-t border-green-500"></div>
                             <ul className="text-gray-300 text-lg mt-6 space-y-4">
-                                <li><strong>08:30</strong> | Credenciamento</li>
-                                <li><strong>09:00</strong> | 🎤 Palestra - <span className="text-green-300">Cláudia Vasconcellos (Petrobras)</span></li>
-                                <li><strong>10:00</strong> | 🎤 Palestra - <span className="text-green-300">João Guandalini (Foresea)</span></li>
-                                <li><strong>11:00</strong> | 🎤 Palestra - <span className="text-green-300">Denis Angra (Ocyan)</span></li>
-                                <li><strong>12:00</strong> | 🍽 Intervalo</li>
-                                <li><strong>14:00</strong> | 🎤 Palestra - <span className="text-green-300">Rafaela Vieira (Subsea7)</span></li>
-                                <li><strong>15:00</strong> | 🎤 Palestra - <span className="text-green-300">Luvas Sátiro (Geowellex)</span></li>
-                                <li><strong>16:00</strong> | 🎤 Palestra - <span className="text-green-300">Dalexa Fernandez (Infinity Power Center)</span></li>
-                                <li><strong>17:00</strong> | ☕ Coffee Break e Encerramento do Dia</li>
+                                <li><strong>08:00</strong> | Credenciamento</li>
+                                <li><strong>09:00</strong> |  Palestra 6 - <span className="text-green-300">Cláudia Vasconcellos (Petrobras)</span></li>
+                                <li><strong>10:00</strong> |  Palestra 7 - <span className="text-green-300">João Guandalini (Foresea)</span></li>
+                                <li><strong>11:00</strong> |  Palestra 8 - <span className="text-green-300">Denis Angra (Ocyan e Presidente da Seção Macaé)</span></li>
+                                <li><strong>12:00</strong> |  Almoço</li>
+                                <li><strong>14:00</strong> |  Palestra 9 - <span className="text-green-300">Rafaela Vieira (WIN)</span></li>
+                                <li><strong>15:00</strong> |  Palestra 10 - <span className="text-green-300">Luvas Sátiro (Geowellex)</span></li>
+                                <li><strong>16:00</strong> |  Palestra 11 - <span className="text-green-300">Dalexa Fernandez (Infinity Power Center and Regional Activities Manager SPE)</span></li>
+                                <li><strong>17:00</strong> |  Coffee Break</li>
                             </ul>
                         </div>
 
@@ -59,13 +60,14 @@ export default function Programacao() {
                             <h3 className="text-white text-3xl font-bold mb-4 text-center uppercase">📅 Quinta-feira - 05 de Junho</h3>
                             <div className="border-t border-green-500"></div>
                             <ul className="text-gray-300 text-lg mt-6 space-y-4">
-                                <li><strong>08:30</strong> | Credenciamento</li>
-                                <li><strong>09:00</strong> | 🎤 Palestra - <span className="text-green-300">Ana Lígia (SLB)</span></li>
-                                <li><strong>10:00</strong> | 🛠 Minicurso - <span className="text-green-300">Fluidos de Perfuração</span> (Laura Musgueira - Petrobras)</li>
-                                <li><strong>12:00</strong> | 🍽 Intervalo</li>
-                                <li><strong>14:00</strong> | 🎤 Palestra - <span className="text-green-300">Fernanda Gois (SLB)</span></li>
-                                <li><strong>15:00</strong> | 🎤 Mesa Redonda e Discussão Técnica</li>
-                                <li><strong>16:00</strong> | 🥂 Coquetel de Encerramento & Premiação</li>
+                                <li><strong>08:00</strong> | Credenciamento</li>
+                                <li><strong>09:00</strong> |  Palestra 12 - <span className="text-green-300">Ana Lígia (SLB)</span></li>
+                                <li><strong>10:00</strong> |  Minicurso 1 - <span className="text-green-300">Fluidos de Perfuração</span> (Laura Musgueira - Petrobras)</li>
+                                <li><strong>12:00</strong> |  Almoço</li>
+                                <li><strong>14:00</strong> |  Palestra 13 - <span className="text-green-300">Fernanda Góis (SLB)</span></li>
+                                <li><strong>15:00</strong> |  Minicurso 2 - <span className="text-green-300">Lucas Sátiro (Geowellex)</span></li>
+                                <li><strong>17:00</strong> |  Mesa de Encerramento</li>
+                                <li><strong>16:00</strong> |  Coquetel</li>
                             </ul>
                         </div>
                     </div>
