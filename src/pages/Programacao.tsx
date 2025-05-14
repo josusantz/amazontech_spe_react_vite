@@ -6,7 +6,7 @@ export default function Programacao() {
             <section className="w-full flex flex-col items-center py-14 bg-green-950/80 backdrop-blur-md">
                 
                 {/* Seção de Introdução */}
-                <div className="-mt-10 text-center bg-gradient-to-r from-green-700 to-green-900 py-16 rounded-2xl mx-6 shadow-2xl w-full max-w-3xl animate-fade-in">
+                <div className="-mt-10 ml-20 mr-20 text-center bg-gradient-to-r from-green-700 to-green-900 py-16 rounded-2xl flex-row mx-6 shadow-2xl md:w-full md:max-w-3xl animate-fade-in">
                     <h1 className="text-white text-5xl font-extrabold tracking-wide uppercase">Programação do Evento</h1>
                     <p className="text-gray-200 text-lg md:text-xl max-w-2xl mx-auto mt-4 font-light">
                         Explore os eventos e palestras do <strong>I° Amazon TechEnergy</strong>. Planeje seu dia e aproveite ao máximo essa experiência transformadora!
@@ -21,7 +21,7 @@ export default function Programacao() {
                     <div className="space-y-12 w-full max-w-4xl">
                         
                         {/* Dia 1 - 03 de Junho */}
-                        <div className="ml-20 bg-green-950/90 rounded-xl shadow-lg p-8 border border-green-500 hover:scale-105 transition-all">
+                        <div className="bg-green-950/90 rounded-xl shadow-lg p-8 border border-green-500 hover:scale-105 transition-all">
                             <h3 className="text-white text-3xl font-bold mb-4 text-center uppercase">📅 Terça-feira - 03 de Junho</h3>
                             <div className=" border-t border-green-500"></div>
                             <ul className="text-gray-300 text-lg mt-6 space-y-4">
@@ -38,7 +38,7 @@ export default function Programacao() {
                         </div>
 
                         {/* Dia 2 - 04 de Junho */}
-                        <div className="ml-20 bg-green-950/90 rounded-xl shadow-lg p-8 border border-green-500 hover:scale-105 transition-all">
+                        <div className="bg-green-950/90 rounded-xl shadow-lg p-8 border border-green-500 hover:scale-105 transition-all">
                             <h3 className="text-white text-3xl font-bold mb-4 text-center uppercase">📅 Quarta-feira - 04 de Junho</h3>
                             <div className="border-t border-green-500"></div>
                             <ul className="text-gray-300 text-lg mt-6 space-y-4">
@@ -55,7 +55,7 @@ export default function Programacao() {
                         </div>
 
                         {/* Dia 3 - 05 de Junho */}
-                        <div className="ml-20 bg-green-950/90 rounded-xl shadow-lg p-8 border border-green-500 hover:scale-105 transition-all">
+                        <div className="bg-green-950/90 rounded-xl shadow-lg p-8 border border-green-500 hover:scale-105 transition-all">
                             <h3 className="text-white text-3xl font-bold mb-4 text-center uppercase">📅 Quinta-feira - 05 de Junho</h3>
                             <div className="border-t border-green-500"></div>
                             <ul className="text-gray-300 text-lg mt-6 space-y-4">

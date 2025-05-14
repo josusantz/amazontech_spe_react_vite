@@ -14,8 +14,8 @@ export default function Home() {
 
           {/* Seção Principal sm:max-w-md md:max-w-lg*/}
           <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-4 h-auto w-full bg-green-700/60 ">
-            
-            <div className="text-left text-gray-300 md:pl-10">
+            <div className = "mt-10">
+                <div className="text-left text-gray-300 md:pl-10 ml-10 mr-10">
               <h1 className="text-white text-3xl md:text-4xl text-center font-bold mb-4">
                 Nos dias 03 a 05 de Junho de 2025, em Salinópolis - PA, Brasil
               </h1>
@@ -27,13 +27,16 @@ export default function Home() {
                 imenso potencial da margem equatorial.
               </p>
             </div>
-            <div className="flex justify-center items-center mt-15">
+            <div className="flex justify-center items-center mr-10 ml-10 mt-15">
               <img 
                 src="Media/fontedocaranaeditada.png"
                 alt="Belezas de Salinas"
                 className="w-full max-w-md md:max-w-lg rounded-lg"
               />
+            </div> 
+
             </div>
+
           </div>
 
           {/* Seção de Patrocinadores */}
