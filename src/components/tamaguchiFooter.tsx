@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="container mx-auto px-6 flex flex-col md:flex-row md:items-center md:justify-center md:gap-6">
         {/* Localização */}
         <div className="w-full md:w-1/4 text-center md:flex md:flex-col md:items-center">
-          <div className="border-t-4 border-blue-400 w-full mb-2 md:mb-0 md:border-none"></div>
+          <div className="border-t-4 border-yellow-400 w-full mb-2 md:mb-0 md:border-none"></div>
           <h3 className="text-lg font-semibold pb-2">
             Localização
           </h3>
@@ -19,11 +19,11 @@ export default function Footer() {
         </div>
 
         {/* Linha vertical entre Localização e Redes Sociais */}
-        <div className="hidden md:block border-r-2 border-blue-400 h-24"></div>
+        <div className="hidden md:block border-r-2 border-yellow-400 h-24"></div>
 
         {/* Redes Sociais */}
         <div className="w-full md:w-1/4 text-center md:flex md:flex-col md:items-center">
-          <div className="border-t-4 border-blue-400 w-full mb-2 md:mb-0 md:border-none"></div>
+          <div className="border-t-4 border-yellow-400 w-full mb-2 md:mb-0 md:border-none"></div>
           <h3 className="text-lg font-semibold pb-2">
             Redes Sociais
           </h3>
@@ -50,11 +50,11 @@ export default function Footer() {
         </div>
 
         {/* Linha vertical entre Redes Sociais e Contate-nos */}
-        <div className="hidden md:block border-r-2 border-blue-400 h-24"></div>
+        <div className="hidden md:block border-r-2 border-yellow-400 h-24"></div>
 
         {/* Contatos */}
         <div className="w-full md:w-1/4 text-center md:flex md:flex-col md:items-center">
-          <div className="border-t-4 border-blue-400 w-full mb-2 md:mb-0 md:border-none"></div>
+          <div className="border-t-4 border-yellow-400 w-full mb-2 md:mb-0 md:border-none"></div>
           <h3 className="text-lg font-semibold pb-2">
             Contate-nos
           </h3>
@@ -82,11 +82,11 @@ export default function Footer() {
         </div>
 
         {/* Linha vertical entre Contate-nos e Inscrição */}
-        <div className="hidden md:block border-r-2 border-blue-400 h-24"></div>
+        <div className="hidden md:block border-r-2 border-yellow-400 h-24"></div>
 
         {/* Inscrição do Evento */}
         <div className="w-full md:w-1/4 text-center md:flex md:flex-col md:items-center">
-          <div className="border-t-4 border-blue-400 w-full mb-2 md:mb-0 md:border-none"></div>
+          <div className="border-t-4 border-yellow-400 w-full mb-2 md:mb-0 md:border-none"></div>
           <h3 className="text-lg font-semibold pb-2">
             Inscrição do Evento
           </h3>
@@ -94,7 +94,7 @@ export default function Footer() {
             href="https://www.sympla.com.br/evento/1-amazon-techenergy-conexoes-para-o-futuro/2914779"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-2 px-4 py-2 bg-blue-400 text-gray-900 font-semibold rounded hover:bg-green-500 md:w-auto md:text-center w-full text-center"
+            className="mt-2 px-4 py-2 bg-yellow-400 text-gray-900 font-semibold rounded hover:bg-green-500 md:w-auto md:text-center w-full text-center"
           >
             Inscreva-se
           </a>

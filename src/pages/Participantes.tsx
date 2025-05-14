@@ -39,9 +39,9 @@ export default function Palestrantes() {
                             className="bg-green-950/90 rounded-lg shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform"
                         >
                             <img 
-                                src="Members/ana_ligia.jpg" 
+                                src="Members/AnaLi.PNG" 
                                 alt="Ana Lígia"
-                                className="w-44 h-44 object-cover mb-2 rounded-[20vw] border-[0.9px] border-green-300"
+                                className="w-44 h-44 object-cover mb-2 rounded-[20vw] border-[2px] border-yellow-400"
                             />
                             <h3 className="text-white text-2xl font-bold mb-2">Ana Lígia Trannin</h3>
                             <h4 className="text-green-300 text-lg font-semibold mb-3">Gerente de Recrutamento na SLB</h4>
@@ -61,9 +61,9 @@ export default function Palestrantes() {
                             className="bg-green-950/90 rounded-lg shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform"
                         >
                             <img 
-                                src="Members/claudia_vasconcellos.jpg" 
+                                src="Members/ClauVas.jpg" 
                                 alt="Claudia Vasconcellos"
-                                className="w-44 h-44 object-cover mb-2 rounded-full border-[0.9px] border-green-300"
+                                className="w-44 h-44 object-cover mb-2 rounded-full border-[2px] border-yellow-400"
                             />
                             <h3 className="text-white text-2xl font-bold mb-2">Claudia Vasconcellos</h3>
                             <h4 className="text-green-300 text-lg font-semibold mb-3">Consultora Técnica na Petrobrás</h4>
@@ -84,9 +84,9 @@ export default function Palestrantes() {
                             className="bg-green-950/90 rounded-lg shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform"
                         >
                             <img 
-                                src="Members/wilson_leal.jpg" 
+                                src="Members/Wilson.PNG" 
                                 alt="Wilson Leal"
-                                className="w-44 h-44 object-cover mb-2 rounded-full border-[0.9px] border-green-300"                            />
+                                className="w-44 h-44 object-cover mb-2 rounded-full border-[2px] border-yellow-400"                            />
                             <h3 className="text-white text-2xl font-bold mb-2">Wilson Leal</h3>
                             <h4 className="text-green-300 text-lg font-semibold mb-3">Desenvolvedor de Negócios</h4>
                             <p className="text-gray-300 text-base text-justify leading-relaxed">
@@ -107,7 +107,7 @@ export default function Palestrantes() {
                             <img 
                                 src="Members/Rafaela.jpg" 
                                 alt="Rafaela Vieira"
-                                className="w-44 h-44 object-cover mb-2 rounded-full border-[0.9px] border-green-300"
+                                className="w-44 h-44 object-cover mb-2 rounded-full border-[2px] border-yellow-400"
                             />
                             <h3 className="text-white text-2xl font-bold mb-2">Rafaela Vieira</h3>
                             <h4 className="text-green-300 text-lg font-semibold mb-3">Coordenadora Comercial na Subsea7</h4>
@@ -130,9 +130,9 @@ export default function Palestrantes() {
                             className="bg-green-950/90 rounded-lg shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform"
                         >
                             <img 
-                                src="Members/joao_guandalini.jpg" 
+                                src="Members/JoG.PNG" 
                                 alt="João Guandalini"
-                                className="w-44 h-44 object-cover mb-2 rounded-full border-[0.9px] border-green-300"
+                                className="w-44 h-44 object-cover mb-2 rounded-full border-[2px] border-yellow-400"
                             />
                             <h3 className="text-white text-2xl font-bold mb-2">João Guandalini</h3>
                             <h4 className="text-green-300 text-lg font-semibold mb-3">Engenheiro de Petróleo</h4>
@@ -154,7 +154,7 @@ export default function Palestrantes() {
                             <img 
                                 src="Members/josewalmir.jpeg" 
                                 alt="Jose"
-                                className="w-44 h-44 object-cover mb-2 rounded-full border-[0.9px] border-green-300"
+                                className="w-44 h-44 object-cover mb-2 rounded-full border-[2px] border-yellow-400"
                             />
                             <h3 className="text-white text-2xl font-bold mb-2">José Walmir M. Dias</h3>
                             <h4 className="text-green-300 text-lg font-semibold mb-3">JN Consultoria</h4>
@@ -174,9 +174,9 @@ export default function Palestrantes() {
                             className="bg-green-950/90 rounded-lg shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform"
                         >
                             <img 
-                                src="Members/lucasSatiro.jpg" 
+                                src="Members/LucasSa.jpg" 
                                 alt="Lucas Sátiro"
-                                className="w-44 h-44 object-cover mb-2 rounded-full border-[0.9px] border-green-300"
+                                className="w-44 h-44 object-cover mb-2 rounded-full border-[2px] border-yellow-400"
                                 />
                             <h3 className="text-white text-2xl font-bold mb-2">Lucas Sátiro</h3>
                             <h4 className="text-green-300 text-lg font-semibold mb-3">Engenheiro de Petróleo</h4>
@@ -198,9 +198,9 @@ export default function Palestrantes() {
                             className="bg-green-950/90 rounded-lg shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform"
                         >
                             <img 
-                                src="Members/denis.jpg" 
+                                src="Members/DeRO.jpg" 
                                 alt="Denis"
-                                className="w-44 h-44 object-cover mb-2 rounded-full border-[0.9px] border-green-300"
+                                className="w-44 h-44 object-cover mb-2 rounded-full border-[2px] border-yellow-400"
                             />
                             <h3 className="text-white text-2xl font-bold mb-2">Denis Rosa Angra</h3>
                             <h4 className="text-green-300 text- font-semibold mb-3 text-justify">Gerente de Negócios Digitais e Tecnologia na Ocyan</h4>
@@ -213,7 +213,7 @@ export default function Palestrantes() {
 
                         {/* Laura Musgueira*/}
                         <a 
-                            href="https://www.linkedin.com/in/josewalmirm?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            href="https://www.linkedin.com/in/laura-musgueira-3ab321193/"
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="bg-green-950/90 rounded-lg shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform"
@@ -221,10 +221,10 @@ export default function Palestrantes() {
                             <img 
                                 src="Members/Laura.jpg" 
                                 alt="Laura"
-                                className="w-44 h-44 object-cover mb-2 rounded-full border-[0.9px] border-green-300"
+                                className="w-44 h-44 object-cover mb-2 rounded-full border-[2px] border-yellow-400"
                             />
                             <h3 className="text-white text-2xl font-bold mb-2">Laura Musgueira</h3>
-                            <h4 className="text-green-300 text-lg font-semibold mb-3">Química de Petróleo na Petrobras<select name="" id=""></select></h4>
+                            <h4 className="text-green-300 text-lg font-semibold mb-3">Química de Petróleo na Petrobras</h4>
                             <p className="text-gray-300 text-base text-justify leading-relaxed">
                             Laura Musgueira é Química com Atribuições tecnológicas formada pela UFRJ. Ingressou na PETROBRÁS
                             em 2008 como Química de Petróleo e possui MBA em Gestão de Pessoas pela FGV. Possui 17 de experiência na
@@ -245,10 +245,10 @@ export default function Palestrantes() {
                             <img 
                                 src="Members/Dalexa.jpg" 
                                 alt="Dalexa"
-                                className="w-44 h-44 object-cover mb-2 rounded-full border-[0.9px] border-green-300"
+                                className="w-44 h-44 object-cover mb-2 rounded-full border-[2px] border-yellow-400"
                             />
-                            <h3 className="text-white text-2xl font-bold mb-2">Laura Musgueira</h3>
-                            <h4 className="text-green-300 text-lg font-semibold mb-3">Gerente Regional na SPE Internacional<select name="" id=""></select></h4>
+                            <h3 className="text-white text-2xl font-bold mb-2">Dalexa Fernandez</h3>
+                            <h4 className="text-green-300 text-lg font-semibold mb-3">Gerente Regional na SPE Internacional</h4>
                             <p className="text-gray-300 text-base text-justify leading-relaxed">
                             Dalexa é engenheira de petróleo com mestrado e formação em Negócios Internacionais, somando mais de 17 anos de experiência em empresas 
                             globais de óleo e gás. Especialista em ciclo de vida de poços e gestão de projetos, alia conhecimento técnico e de negócios na liderança 
@@ -258,6 +258,32 @@ export default function Palestrantes() {
                             </p>
                         </a>
 
+                        {/* Fernanda Gois */}
+                        <a 
+                            href="https://www.linkedin.com/in/fernanda-gois-a914b6120/"
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="bg-green-950/90 rounded-lg shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform"
+                        >
+                            <img 
+                                src="Members/Fernanda.jpg" 
+                                alt="Fernanda"
+                                className="w-44 h-44 object-cover mb-2 rounded-full border-[2px] border-yellow-400"
+                            />
+                            <h3 className="text-white text-2xl font-bold mb-2">Fernanda Gois</h3>
+                            <h4 className="text-green-300 text-lg font-semibold mb-3">Engenheira de Reservatórios na SLB</h4>
+                            <p className="text-gray-300 text-base text-justify leading-relaxed">
+                            Engenheira de Petróleo formada pela Universidade Santa Cecília (UNISANTA), mestre em Engenharia de Reservatório e Gestão pela
+                            Universidade Estadual de Campinas (UNICAMP). Hoje atua como engenheira de reservatórios na área de tecnologia da SLB (antiga Schlumberger).
+                            Desenvolve projetos inovadores com foco em simulação de reservatórios, além dd oferecer suporte técnico a estudos de caso com operadores,
+                            especialmente em campos do pré-sal. Possui bastante experiência em liderança no meio acadêmico e técnico: foi presidente do Capítulo Estudantil
+                            da SPE UNICAMP (2020-2021), líder fundadora do núcleo women in Energy (WIN) na UNICAMP (2021-2022), e coordenadora de comunicação do
+                            Comitê Técnico de Tramsformação Digital (CTTD) da SPE Brasil (2022-2023).
+
+                            </p>
+                        </a>
+
+                        
                     </div>
                 </div>
             </section>
