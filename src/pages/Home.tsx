@@ -1,7 +1,6 @@
 export default function Home() {
   return (
     <main className="min-h-screen w-full overflow-x-hidden bg-gray-900 flex flex-col justify-center">
-
         <div className="h-38 w-full flex justify-center items-center ">
             <img 
                 src="Icons/amazontech.png"
@@ -11,11 +10,9 @@ export default function Home() {
         </div>
 
         <section className="bg-[url('/Media/rioDaAmazonia.jpeg')] bg-cover bg-center  flex flex-col overflow-x-hidden">
-
           {/* Seção Principal sm:max-w-md md:max-w-lg*/}
-          <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-4 h-auto w-full bg-green-700/60 ">
-            <div className = "mt-10 flex-rows" >
-                <div className="text-left text-gray-300 md:pl-10 ml-10 mr-10">
+          <div className="grid grid-cols-1 md:grid-cols-2  items-center flex-cols gap-4 h-auto w-full bg-green-700/60 ">
+            <div className="text-left flex-cols text-gray-300 md:pl-10 ml-10 mr-10">
               <h1 className="text-white text-3xl md:text-4xl text-center font-bold mb-4">
                 Nos dias 03 a 05 de Junho de 2025, em Salinópolis - PA, Brasil
               </h1>
@@ -27,16 +24,13 @@ export default function Home() {
                 imenso potencial da margem equatorial.
               </p>
             </div>
-            <div className="flex justify-center items-center mr-10 ml-10 mt-15">
+            <div className="flex-cols justify-center items-center mr-10 mt-15 ml-10">
               <img 
                 src="Media/fontedocaranaeditada.png"
                 alt="Belezas de Salinas"
                 className="w-full max-w-md md:max-w-lg rounded-lg"
               />
-            </div> 
-
             </div>
-
           </div>
 
           {/* Seção de Patrocinadores */}
