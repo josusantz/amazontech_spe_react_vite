@@ -1,7 +1,7 @@
 
 export default function Programacao() {
     return (
-        <main className="bg-[url('Media/rioDaAmazonia.jpeg')] bg-cover bg-center bg-fixed w-full overflow-x-hidden">
+        <main className="bg-[url('/Media/rioDaAmazonia.jpeg')] bg-cover bg-center bg-fixed w-full overflow-x-hidden">
             <div className="w-full h-30 bg-gray-900"></div>
             <section className="w-full flex flex-col items-center py-14 bg-green-950/80 backdrop-blur-md">
                 
