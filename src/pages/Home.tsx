@@ -14,7 +14,7 @@ export default function Home() {
 
           {/* Seção Principal sm:max-w-md md:max-w-lg*/}
           <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-4 h-auto w-full bg-green-700/60 ">
-            <div className = "mt-10">
+            <div className = "mt-10 flex-rows" >
                 <div className="text-left text-gray-300 md:pl-10 ml-10 mr-10">
               <h1 className="text-white text-3xl md:text-4xl text-center font-bold mb-4">
                 Nos dias 03 a 05 de Junho de 2025, em Salinópolis - PA, Brasil
